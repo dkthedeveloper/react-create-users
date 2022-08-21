@@ -1,0 +1,10 @@
+.user {
+    padding: .5rem;
+    width: 100%;
+    border: .1rem solid #ccc;
+    margin: .5rem;
+}
+
+.user button {
+    float: right;
+}
