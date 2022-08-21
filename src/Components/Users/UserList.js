@@ -12,20 +12,17 @@ const UserList = (props) => {
     content = props.usersArr.map((user) => {
       return (
         <User
+          onUserDelete={props.onDeleteUser}
           key={user.id}
           name={user.name}
           age={user.age}
+          id={user.id}
         />
       );
     });
   }
 
-
-  return (
-    <Card onUserDelete={props.onDeleteUser} className={styles.list}>
-      {content}
-    </Card>
-  );
+  return <Card className={styles.list}>{content}</Card>;
 };
 
 export default UserList;
