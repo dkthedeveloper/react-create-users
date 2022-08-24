@@ -6,10 +6,23 @@
     max-width: 40rem;
     z-index: 0;
   }
+
+  .input form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .input button {
+    width: 60%;
+  }
   
   .input label {
     display: block;
     font-weight: bold;
+    align-self: flex-start;
   }
   
   .input input {
