@@ -4,6 +4,7 @@
     padding: 1rem;
     width: 90%;
     max-width: 40rem;
+    z-index: 0;
   }
   
   .input label {
@@ -23,11 +24,16 @@
   
   .input input:focus {
     outline: none;
-    border-color: #4f005f;
+    border-color: #aaa7ab;
+    background-color: rgb(227, 235, 247);
   }
 
   
 
   .invalid label {
     color: red;
+  }
+
+  .div {
+    width: 100%;
   }

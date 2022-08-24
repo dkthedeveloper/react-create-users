@@ -10,7 +10,6 @@ function App() {
     updateUsersList((prevUsers) => {
       prevUsers = [...users];
       const updatedUsers = prevUsers.filter((user) => user.id !== userId);
-      console.log(updatedUsers);
       return updatedUsers;
     });
   };

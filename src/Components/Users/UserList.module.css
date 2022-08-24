@@ -1,9 +1,11 @@
-.list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  
+.userList {
+    z-index: 1;
+    width: auto;
+}
+
+
+@media (min-width: 768px) {
+    .userList {
+      width: 40%
+    }
 }

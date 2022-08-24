@@ -11,7 +11,7 @@ const User = (props) => {
     <div className={styles.user}>
       {`${props.name} (${props.age} years old)`}
       <Button
-        key={Math.random().toString()}
+        key={props.id}
         type="button"
         onClick={deleteHanddler}
       >

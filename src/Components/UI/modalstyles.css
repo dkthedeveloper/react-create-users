@@ -1,8 +1,4 @@
-.card   {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.errorModal   {
     border-radius: 12px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
     width: 100%;
@@ -11,7 +7,11 @@
 }
 
 @media (min-width: 768px) {
-    .card {
-      width: auto
+    .errorModal {
+      width: 50%
     }
+}
+
+.errorModal button {
+    float: right;
 }
