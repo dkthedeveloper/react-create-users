@@ -1,11 +1,11 @@
 .userList {
     z-index: 1;
-    width: auto;
+    width: 100%;
 }
 
 
 @media (min-width: 768px) {
     .userList {
-      width: 40%
+      width: 50%
     }
 }

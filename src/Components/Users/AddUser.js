@@ -51,14 +51,14 @@ const AddUser = (props) => {
     setIsValid(true);
   };
 
-  const errorMessage = "Please enter valid user NAME and AGE.";
+  const errorMessage = "Please enter a valid user NAME and AGE.";
 
   return (
     <div className={styles.div}>
       {!isValid && (
         <ErrorModal
           modalCloser={modalCloseHandler}
-          title="Error!"
+          title="Invalid"
           message={errorMessage}
         />
       )}
