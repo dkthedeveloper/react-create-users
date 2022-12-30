@@ -3,7 +3,7 @@ import Button from "../UI/Button";
 import styles from "./User.module.css";
 
 const User = (props) => {
-  const deleteHanddler = () => {
+  const deleteHandler = () => {
     props.onUserDelete(props.id);
   };
 
@@ -13,7 +13,7 @@ const User = (props) => {
       <Button
         key={props.id}
         type="button"
-        onClick={deleteHanddler}
+        onClick={deleteHandler}
       >
         Delete
       </Button>
